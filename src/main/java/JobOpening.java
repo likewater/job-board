@@ -20,6 +20,8 @@ public class JobOpening {
   }
 
   public String getContact() {
-    return "";
+    return mContact;
   }
+
+  
 }
