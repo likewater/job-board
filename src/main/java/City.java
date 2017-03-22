@@ -3,14 +3,16 @@ import java.util.ArrayList;
 
 public class City {
   private String mCity;
+  private Object mJob;
 
-  public City(String city) {
+  public City(String city, Object job) {
     mCity = city;
+    mJob = job;
   }
 
-  public ArrayList<Object> ListOfCities(){
-    List<Object> cityArrayList = new ArrayList<Object>();
-    return cityArrayList[0];
+  public Object getListOfCities(Object job){
+    List<JobOpening> cityArrayList = new ArrayList<JobOpening>();
+    return cityArrayList.get(0);
   }
 
 }
