@@ -10,7 +10,7 @@ public class City {
 
   public ArrayList<Object> ListOfCities(){
     List<Object> cityArrayList = new ArrayList<Object>();
-    return cityArrayList[0];
+    return cityArrayList[0]; // need to fix the return statement
   }
 
 }
