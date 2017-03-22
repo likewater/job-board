@@ -23,5 +23,7 @@ public class JobOpening {
     return mContact;
   }
 
-  
+  public String getCity() {
+    return "";
+  }
 }
