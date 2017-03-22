@@ -24,6 +24,6 @@ public class JobOpening {
   }
 
   public String getCity() {
-    return "";
+    return mCity;
   }
 }
