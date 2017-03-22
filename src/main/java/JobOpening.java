@@ -16,6 +16,10 @@ public class JobOpening {
   }
 
   public String getJobDescription() {
+    return mJobDescription;
+  }
+
+  public String getContact() {
     return "";
   }
 }

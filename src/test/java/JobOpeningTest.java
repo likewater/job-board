@@ -21,4 +21,10 @@ public class JobOpeningTest {
     assertEquals("description", newJob.getJobDescription());
   }
 
+  @Test
+  public void getContact_addContactToObject_string(){
+    JobOpening newJob = new JobOpening("title", "description", "contact", "city");
+    assertEquals("contact", newJob.getContact());
+  }
+
 }
