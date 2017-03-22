@@ -12,6 +12,10 @@ public class JobOpening {
   }
 
   public String getJobTitle() {
+    return mJobTitle;
+  }
+
+  public String getJobDescription() {
     return "";
   }
 }
